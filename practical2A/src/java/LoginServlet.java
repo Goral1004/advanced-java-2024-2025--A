@@ -41,7 +41,7 @@ public class LoginServlet extends HttpServlet {
             String UID=request.getParameter("ui");
             String pass=request.getParameter("pass");
             
-            if(UID.equals("Roshani")&&pass.equals("upg"))
+            if(UID.equals("goral")&&pass.equals("upg"))
             {
                 RequestDispatcher rd=request.getRequestDispatcher("WelcomeServlet");
                 rd.forward(request,response);
